@@ -1,2 +1,16 @@
-# daily-ui-01-hero
-Day 01 — Hero Section built with HTML &amp; CSS.
+# Daily UI — Day 01: Hero Section
+
+A clean and modern Hero Section built with HTML & CSS.
+
+## Features
+- Fullscreen layout
+- Gradient background
+- Centered content
+
+## Screenshot
+()
+
+## What I Learned
+- Structuring a simple landing hero
+- Using gradients for luxury UI
+- Improving typography hierarchy
