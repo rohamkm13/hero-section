@@ -8,7 +8,7 @@ A clean and modern Hero Section built with HTML & CSS.
 - Centered content
 
 ## Screenshot
-()
+(<img src="" alt="hero-img">)
 
 ## What I Learned
 - Structuring a simple landing hero
