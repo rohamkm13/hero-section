@@ -8,7 +8,7 @@ A clean and modern Hero Section built with HTML & CSS.
 - Centered content
 
 ## Screenshot
-(<img src="" alt="hero-img">)
+![screenshot](Macbook-Pro-16-2110x1286.png)
 
 ## What I Learned
 - Structuring a simple landing hero
