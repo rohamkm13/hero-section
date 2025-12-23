@@ -62,14 +62,81 @@ body {
 }
 
 @media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+
   .hero {
+    width: 100%;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: auto;
+    padding: 20px;
+    min-height: 100vh;
+    height: auto;
   }
-  .left-hero, .right-hero {
+
+  .left-hero {
     grid-area: auto;
+    padding: 20px 0;
   }
-  .hero .right-hero  {
+
+  .right-hero {
+    grid-area: auto;
     display: none;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    padding: 0 10px;
+  }
+
+  .btn {
+    padding: 10px 24px;
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 15px;
+  }
+
+  .hero h1 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+    padding: 0;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.85rem;
+    margin-right: 8px;
+    width: auto;
+  }
+
+  .left-hero > div {
+    display: flex;
+    
+    gap: 10px;
+  }
+
+  .left-hero > div .btn {
+    margin-right: 0;
+    width: 100%;
+    max-width: 280px;
   }
 }
