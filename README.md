@@ -1,4 +1,4 @@
-Hero Section
+# Hero Section
 
 A clean and modern Hero Section built with HTML & CSS.
 
